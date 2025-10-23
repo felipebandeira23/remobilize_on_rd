@@ -23,7 +23,7 @@ COOLDOWN_SECONDS: Final = 30         # cooldown por jogador
 NOTIFY_PLAYER: Final = True          # enviar mensagem privada confirmando a ação
 CONFIRM_MESSAGE: Final = "Remobilização solicitada — você será respawnado em instantes."  # mensagem ao jogador
 PUNISH_REASON: Final = "Remobilize via !rd"
-PUNISH_TYPES = ("suicide")  # tente essas variantes (ordem preferida)
+PUNISH_TYPES = ("suicide") 
 # -------------------------------
 
 # controle simples de cooldown (memória em processo)
