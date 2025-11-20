@@ -19,11 +19,6 @@ O bot funciona através de um sistema de *hooks* que se integra ao CRCON (Commun
 2. **Detecção**: Quando o comandante digita `!rd`, o bot identifica o comando
 3. **Acionamento**: Uma mensagem é automaticamente enviada
 
-### Casos de Uso
-
-- **Bombardeios**: Após um bombardeio aéreo do inimigo destruir os nodes defensivos
-- **Sincronização**: Garante que toda a equipe de engenheiros receba o alerta simultaneamente
-
 ### Instalação
 
 #### 1. Copiar o arquivo
@@ -58,13 +53,13 @@ Ou reinicie manualmente o serviço CRCON.
 
 ### Como Usar
 
-Durante a partida, o comandante simplesmente digita no chat do jogo:
+Durante a partida, o jogador simplesmente digita no chat do jogo:
 
 ```
 !rd
 ```
 
-Instantaneamente, todos os engenheiros receberão uma mensagem privada solicitando que remontem os nodes defensivos. Não há necessidade de repetir comandos ou aguardar confirmações.
+Instantaneamente, o jogador é remobilizado.
 
 ### Requisitos
 
@@ -110,12 +105,6 @@ The bot operates through a *hooks* system that integrates with CRCON (Community 
 
 1. **Monitoring**: The bot continuously listens to game chat through the `@on_chat` hook
 2. **Detection**: When the commander types `!rd`, the bot identifies the command
-3. **Triggering**: A message is automatically sent t
-
-### Use Cases
-
-- **Airstrikes**: After enemy airstrikes destroy defensive nodes
-- **Synchronization**: Ensures the entire engineering team receives the alert simultaneously
 
 ### Installation
 
@@ -151,13 +140,13 @@ Or restart the CRCON service manually.
 
 ### How to Use
 
-During the match, the commander simply types in the game chat:
+During the match, the player use:
 
 ```
 !rd
 ```
 
-Instantly, all engineers will receive a private message requesting them to remobilize the defensive nodes. There's no need to repeat commands or wait for confirmations.
+Instantly, the player is remobilized
 
 ### Requirements
 
