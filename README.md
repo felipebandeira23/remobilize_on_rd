@@ -17,14 +17,11 @@ O bot funciona através de um sistema de *hooks* que se integra ao CRCON (Commun
 
 1. **Monitoramento**: O bot escuta continuamente o chat do jogo através do hook `@on_chat`
 2. **Detecção**: Quando o comandante digita `!rd`, o bot identifica o comando
-3. **Acionamento**: Uma mensagem é automaticamente enviada aos engenheiros
-4. **Comunicação**: Os engenheiros recebem uma notificação pedindo para remobilizar os nodes
-5. **Contexto**: O comando é típico após bombardeios ou remoções de nodes defensivos
+3. **Acionamento**: Uma mensagem é automaticamente enviada
 
 ### Casos de Uso
 
 - **Bombardeios**: Após um bombardeio aéreo do inimigo destruir os nodes defensivos
-- **Removals**: Quando os nodes defensivos são destruídos pelo inimigo em combate
 - **Sincronização**: Garante que toda a equipe de engenheiros receba o alerta simultaneamente
 
 ### Instalação
@@ -113,14 +110,11 @@ The bot operates through a *hooks* system that integrates with CRCON (Community 
 
 1. **Monitoring**: The bot continuously listens to game chat through the `@on_chat` hook
 2. **Detection**: When the commander types `!rd`, the bot identifies the command
-3. **Triggering**: A message is automatically sent to the engineers
-4. **Communication**: Engineers receive a notification asking them to remobilize the nodes
-5. **Context**: The command is typical after airstrikes or destruction of defensive nodes
+3. **Triggering**: A message is automatically sent t
 
 ### Use Cases
 
 - **Airstrikes**: After enemy airstrikes destroy defensive nodes
-- **Removals**: When defensive nodes are destroyed by the enemy in combat
 - **Synchronization**: Ensures the entire engineering team receives the alert simultaneously
 
 ### Installation
